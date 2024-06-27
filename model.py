@@ -87,6 +87,6 @@ def evaluate_cer_wer_scores(audio_dir, text_dir):
         print(f"Skipped files: {', '.join(skipped_files)}")
 
 
-audio_directory = '../Indian_accent_Speech_to_text_convertor/dataset/audio'
-text_directory = '../Indian_accent_Speech_to_text_convertor/dataset/transcriptions'
+audio_directory = './dataset/audio'
+text_directory = './dataset/transcriptions'
 evaluate_cer_wer_scores(audio_directory, text_directory)
